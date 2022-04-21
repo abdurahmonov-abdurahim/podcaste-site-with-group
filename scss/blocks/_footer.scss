@@ -1,0 +1,221 @@
+.footerbox{
+  padding-top: 50px;
+
+  // POINT
+  &__point{
+    display: flex;
+    width: 4px;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    margin: 0 22px;
+    background-color: black;
+    // width: 4px;
+    // height: 4px;
+    border-radius: 100%;
+  }
+
+
+  // LIST
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__desc{
+    margin: 0;
+    padding: 0;
+    margin: 12px 0 84px 0;
+    width: 380px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #1C1B1E;
+    opacity: 0.6;
+  }
+
+  &__item{
+    margin: 0;
+    padding: 0;
+  }
+
+  &__social{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__social-set{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+
+
+  // SITEMAP MENU OF FOOTER SECTION
+
+  &__item-title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+
+}
+
+// FOOTER NAVIGATION
+
+.footernav{
+  margin: 0;
+  padding: 0;
+  margin-top: 26px;
+
+  &__list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item{
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item + &__item{
+    margin-top: 13px;
+  }
+
+  &__link{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  &__link:hover{
+    opacity: 1;
+  }
+}
+
+// COMPANYLIST OF FOOTER SECTION
+
+.companylist{
+  margin: 0;
+  padding: 0;
+  margin-top: 26px;
+  list-style-type: none;
+
+  &__item{
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item + &__item{
+    margin-top: 13px;
+  }
+
+  &__link{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  &__link:hover{
+    opacity: 2;
+  }
+}
+
+
+// CONTACT PLACE OF FOOTER SECTION
+
+.contactlist{
+  margin: 0;
+  padding: 0;
+  margin-top: 26px;
+  list-style-type: none;
+
+
+  &__item{
+    max-width: 163px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.7;
+  }
+
+  &__item + &__item{
+    margin-top: 13px;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #000000;
+  }
+}
+
+// FOOTER LINE
+
+.footer-line{
+  margin: 17px 0 28px 0;
+  border: 1px solid #B3B3B3;
+  background-color:#B3B3B3;
+}
+
+// FOOTER SECTION VERY DOWN
+
+.footerdown{
+  display: flex;
+  justify-content: space-between;
+
+
+  &__collactive{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 0.7;
+  }
+
+  &__terms{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
